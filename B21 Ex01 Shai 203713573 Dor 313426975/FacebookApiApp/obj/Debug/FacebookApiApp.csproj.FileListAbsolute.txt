@@ -1,0 +1,5 @@
+C:\Users\srsrs\Desktop\Design patterns\FacebookAPIapp\B21 Ex01 Shai 203713573 Dor 313426975\FacebookApiApp\obj\Debug\FacebookApiApp.csprojAssemblyReference.cache
+C:\Users\srsrs\Desktop\Design patterns\FacebookAPIapp\B21 Ex01 Shai 203713573 Dor 313426975\FacebookApiApp\obj\Debug\FacebookApiApp.BirthdayPosts.resources
+C:\Users\srsrs\Desktop\Design patterns\FacebookAPIapp\B21 Ex01 Shai 203713573 Dor 313426975\FacebookApiApp\obj\Debug\FacebookApiApp.LoginForm.resources
+C:\Users\srsrs\Desktop\Design patterns\FacebookAPIapp\B21 Ex01 Shai 203713573 Dor 313426975\FacebookApiApp\obj\Debug\FacebookApiApp.ProfileForm.resources
+C:\Users\srsrs\Desktop\Design patterns\FacebookAPIapp\B21 Ex01 Shai 203713573 Dor 313426975\FacebookApiApp\obj\Debug\FacebookApiApp.csproj.GenerateResource.cache
