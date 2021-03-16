@@ -1,5 +1,13 @@
 C:\Users\srsrs\Desktop\Design patterns\FacebookAPIapp\B21 Ex01 Shai 203713573 Dor 313426975\FacebookApiApp\obj\Debug\FacebookApiApp.csprojAssemblyReference.cache
-C:\Users\srsrs\Desktop\Design patterns\FacebookAPIapp\B21 Ex01 Shai 203713573 Dor 313426975\FacebookApiApp\obj\Debug\FacebookApiApp.BirthdayPosts.resources
 C:\Users\srsrs\Desktop\Design patterns\FacebookAPIapp\B21 Ex01 Shai 203713573 Dor 313426975\FacebookApiApp\obj\Debug\FacebookApiApp.LoginForm.resources
 C:\Users\srsrs\Desktop\Design patterns\FacebookAPIapp\B21 Ex01 Shai 203713573 Dor 313426975\FacebookApiApp\obj\Debug\FacebookApiApp.ProfileForm.resources
 C:\Users\srsrs\Desktop\Design patterns\FacebookAPIapp\B21 Ex01 Shai 203713573 Dor 313426975\FacebookApiApp\obj\Debug\FacebookApiApp.csproj.GenerateResource.cache
+C:\Users\srsrs\Desktop\Design patterns\FacebookAPIapp\B21 Ex01 Shai 203713573 Dor 313426975\FacebookApiApp\bin\Debug\FacebookApiApp.exe
+C:\Users\srsrs\Desktop\Design patterns\FacebookAPIapp\B21 Ex01 Shai 203713573 Dor 313426975\FacebookApiApp\bin\Debug\FacebookApiApp.pdb
+C:\Users\srsrs\Desktop\Design patterns\FacebookAPIapp\B21 Ex01 Shai 203713573 Dor 313426975\FacebookApiApp\bin\Debug\Facebook.dll
+C:\Users\srsrs\Desktop\Design patterns\FacebookAPIapp\B21 Ex01 Shai 203713573 Dor 313426975\FacebookApiApp\bin\Debug\FbGraphApiWrapper.dll
+C:\Users\srsrs\Desktop\Design patterns\FacebookAPIapp\B21 Ex01 Shai 203713573 Dor 313426975\FacebookApiApp\obj\Debug\FacebookApiApp.Properties.Resources.resources
+C:\Users\srsrs\Desktop\Design patterns\FacebookAPIapp\B21 Ex01 Shai 203713573 Dor 313426975\FacebookApiApp\obj\Debug\FacebookApiApp.csproj.CoreCompileInputs.cache
+C:\Users\srsrs\Desktop\Design patterns\FacebookAPIapp\B21 Ex01 Shai 203713573 Dor 313426975\FacebookApiApp\obj\Debug\FacebookApiApp.csproj.CopyComplete
+C:\Users\srsrs\Desktop\Design patterns\FacebookAPIapp\B21 Ex01 Shai 203713573 Dor 313426975\FacebookApiApp\obj\Debug\FacebookApiApp.exe
+C:\Users\srsrs\Desktop\Design patterns\FacebookAPIapp\B21 Ex01 Shai 203713573 Dor 313426975\FacebookApiApp\obj\Debug\FacebookApiApp.pdb

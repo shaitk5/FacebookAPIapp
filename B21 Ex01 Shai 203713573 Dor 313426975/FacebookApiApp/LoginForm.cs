@@ -36,5 +36,9 @@ namespace FacebookApiApp
                m_LoginResult = FacebookService.Login("283238313148583", "user_birthday", "user_friends", "user_likes", "user_posts", "public_profile");
           }
 
+          private void LoginForm_Load(object sender, EventArgs e)
+          {
+
+          }
      }
 }
