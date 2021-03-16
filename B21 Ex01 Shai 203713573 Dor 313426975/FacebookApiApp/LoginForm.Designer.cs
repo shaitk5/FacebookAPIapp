@@ -93,7 +93,6 @@
                this.MinimumSize = new System.Drawing.Size(539, 833);
                this.Name = "LoginForm";
                this.Text = "FacebookAPI ";
-               this.Load += new System.EventHandler(this.LoginForm_Load);
                ((System.ComponentModel.ISupportInitialize)(this.LogoPicture)).EndInit();
                this.ResumeLayout(false);
                this.PerformLayout();

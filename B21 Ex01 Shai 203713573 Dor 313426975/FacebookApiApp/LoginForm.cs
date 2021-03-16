@@ -20,25 +20,22 @@ namespace FacebookApiApp
           public LoginForm()
           {
                InitializeComponent();
-               
                LoggedInUserData();
           }
 
           private void LoggedInUserData()
           {
-               
+               AppSettings appSettings = AppSettings.LoadFromFile();
+               if(!String.IsNullOrEmpty(appSettings.LastAccessToken))
+               {
 
+               }
           }
 
           private void LoginButtonOnClick(object sender, EventArgs e)
           {
                m_RememberUser = checkBox1.Checked;
                m_LoginResult = FacebookService.Login("283238313148583", "user_birthday", "user_friends", "user_likes", "user_posts", "public_profile");
-          }
-
-          private void LoginForm_Load(object sender, EventArgs e)
-          {
-
           }
      }
 }
