@@ -1,41 +1,73 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 using FacebookWrapper;
-using Facebook;
-using FacebookApiApp;
+using FacebookWrapper.ObjectModel;
 
 namespace FacebookApiApp
 {
      public partial class LoginForm : Form
      {
-          LoginResult m_LoginResult;
-          bool m_RememberUser;
+        public User LoggedInUser
+        {
+            get;
+            private set;
+        }
 
-          public LoginForm()
+        public LoginResult FormLoginResult
+        {
+            get;
+            private set;
+        }
+
+        public bool RememberMe
+        {
+            get
+            {
+                bool v_IfRemember = true;
+
+                v_IfRemember = checkBoxRemeberMe.Checked;
+
+                return v_IfRemember;
+            }
+        }
+
+        public LoginForm()
           {
                InitializeComponent();
-               LoggedInUserData();
-          }
-
-          private void LoggedInUserData()
-          {
-               AppSettings appSettings = AppSettings.LoadFromFile();
-               if(!String.IsNullOrEmpty(appSettings.LastAccessToken))
-               {
-
-               }
           }
 
           private void LoginButtonOnClick(object sender, EventArgs e)
           {
-               m_RememberUser = checkBox1.Checked;
-               m_LoginResult = FacebookService.Login("283238313148583", "user_birthday", "user_friends", "user_likes", "user_posts", "public_profile");
+            LoggedInUserData();
           }
-     }
+
+        private void LoggedInUserData()
+        {
+            FormLoginResult = FacebookService.Login(
+                "283238313148583",
+                "user_birthday",
+                "user_friends",
+                "user_likes",
+                "user_posts",
+                "public_profile");
+
+            AppSettings appSettings = AppSettings.LoadFromFile();
+
+            if (!String.IsNullOrEmpty(FormLoginResult.AccessToken))
+            {
+                LoggedInUser = FormLoginResult.LoggedInUser;
+                this.DialogResult = DialogResult.OK;
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show(FormLoginResult.ErrorMessage);
+            }
+        }
+
+        private void checkBoxRemeberMe_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
