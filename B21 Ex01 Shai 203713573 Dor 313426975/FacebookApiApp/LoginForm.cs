@@ -12,7 +12,6 @@ namespace FacebookApiApp
             get;
             private set;
         }
-
         public LoginResult FormLoginResult
         {
             get;
@@ -32,14 +31,14 @@ namespace FacebookApiApp
         }
 
         public LoginForm()
-          {
+        {
                InitializeComponent();
-          }
+        }
 
-          private void LoginButtonOnClick(object sender, EventArgs e)
-          {
+        private void LoginButtonOnClick(object sender, EventArgs e)
+        {
             LoggedInUserData();
-          }
+        }
 
         private void LoggedInUserData()
         {
