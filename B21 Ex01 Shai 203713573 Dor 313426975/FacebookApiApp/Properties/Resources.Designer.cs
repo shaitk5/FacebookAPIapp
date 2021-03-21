@@ -19,7 +19,7 @@ namespace FacebookApiApp.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -63,6 +63,16 @@ namespace FacebookApiApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap download {
+            get {
+                object obj = ResourceManager.GetObject("download", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap FacebookLoginButton {
             get {
                 object obj = ResourceManager.GetObject("FacebookLoginButton", resourceCulture);
@@ -76,6 +86,26 @@ namespace FacebookApiApp.Properties {
         internal static System.Drawing.Bitmap FacebookLogo {
             get {
                 object obj = ResourceManager.GetObject("FacebookLogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image_photo_upload_photo_icon_1320166594426292180 {
+            get {
+                object obj = ResourceManager.GetObject("image+photo+upload+photo+icon-1320166594426292180", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kissclipart_facebook_birthday_icon_clipart_birthday_cake_compu_c9196dde8d6975e7 {
+            get {
+                object obj = ResourceManager.GetObject("kissclipart-facebook-birthday-icon-clipart-birthday-cake-compu-c9196dde8d6975e7", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
