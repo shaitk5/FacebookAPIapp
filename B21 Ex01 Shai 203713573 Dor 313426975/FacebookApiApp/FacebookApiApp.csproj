@@ -107,7 +107,6 @@
     <None Include="Resources\FacebookLoginButton.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\download.jfif" />
     <Content Include="Resources\download.png" />
     <Content Include="Resources\image+photo+upload+photo+icon-1320166594426292180.png" />
     <Content Include="Resources\kissclipart-facebook-birthday-icon-clipart-birthday-cake-compu-c9196dde8d6975e7.png" />
