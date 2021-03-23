@@ -57,5 +57,10 @@ namespace FacebookApiApp
                 listBoxBirthdays.Items.Add("Permission error !!!!");
             }
         }
+
+        private void FormBirthday_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

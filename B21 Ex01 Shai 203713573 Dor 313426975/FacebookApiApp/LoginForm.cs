@@ -43,7 +43,11 @@ namespace FacebookApiApp
                    "user_likes",
                    "user_gender",
                    "user_posts",
-                   "public_profile");
+                   "public_profile",
+                   "user_friends",
+                   "user_tagged_places",
+                   "user_location"
+                   );
 
                AppSettings appSettings = AppSettings.LoadFromFile();
 

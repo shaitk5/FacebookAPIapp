@@ -51,11 +51,47 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppSettings.cs" />
+    <Compile Include="FormAlbums.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAlbums.Designer.cs">
+      <DependentUpon>FormAlbums.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormBirthday.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormBirthday.Designer.cs">
       <DependentUpon>FormBirthday.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCheckIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCheckIn.Designer.cs">
+      <DependentUpon>FormCheckIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEvents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEvents.Designer.cs">
+      <DependentUpon>FormEvents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFriends.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFriends.Designer.cs">
+      <DependentUpon>FormFriends.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGroups.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGroups.Designer.cs">
+      <DependentUpon>FormGroups.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUserPosts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUserPosts.Designer.cs">
+      <DependentUpon>FormUserPosts.cs</DependentUpon>
     </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
@@ -71,8 +107,26 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormAlbums.resx">
+      <DependentUpon>FormAlbums.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormBirthday.resx">
       <DependentUpon>FormBirthday.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCheckIn.resx">
+      <DependentUpon>FormCheckIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEvents.resx">
+      <DependentUpon>FormEvents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFriends.resx">
+      <DependentUpon>FormFriends.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGroups.resx">
+      <DependentUpon>FormGroups.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUserPosts.resx">
+      <DependentUpon>FormUserPosts.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
@@ -82,18 +136,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -107,9 +161,23 @@
     <None Include="Resources\FacebookLoginButton.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\download.png" />
-    <Content Include="Resources\image+photo+upload+photo+icon-1320166594426292180.png" />
-    <Content Include="Resources\kissclipart-facebook-birthday-icon-clipart-birthday-cake-compu-c9196dde8d6975e7.png" />
+    <None Include="Resources\MyPostLogo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FriendsLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PostLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BirthdayLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\facebookAlbumsLogo.jpg" />
+    <Content Include="Resources\FacebookCheckinsLogo.png" />
+    <Content Include="Resources\FacebookEventsLogo.png" />
+    <Content Include="Resources\FacebookGroupsLogo.jpg" />
+    <None Include="Resources\PhotoLogo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

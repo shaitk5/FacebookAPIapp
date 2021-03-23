@@ -63,9 +63,49 @@ namespace FacebookApiApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap download {
+        internal static System.Drawing.Bitmap BirthdayLogo {
             get {
-                object obj = ResourceManager.GetObject("download", resourceCulture);
+                object obj = ResourceManager.GetObject("BirthdayLogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap facebookAlbumsLogo {
+            get {
+                object obj = ResourceManager.GetObject("facebookAlbumsLogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FacebookCheckinsLogo {
+            get {
+                object obj = ResourceManager.GetObject("FacebookCheckinsLogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FacebookEventsLogo {
+            get {
+                object obj = ResourceManager.GetObject("FacebookEventsLogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FacebookGroupsLogo {
+            get {
+                object obj = ResourceManager.GetObject("FacebookGroupsLogo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +133,9 @@ namespace FacebookApiApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap image_photo_upload_photo_icon_1320166594426292180 {
+        internal static System.Drawing.Bitmap FacebookLogo1 {
             get {
-                object obj = ResourceManager.GetObject("image+photo+upload+photo+icon-1320166594426292180", resourceCulture);
+                object obj = ResourceManager.GetObject("FacebookLogo1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +143,39 @@ namespace FacebookApiApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap kissclipart_facebook_birthday_icon_clipart_birthday_cake_compu_c9196dde8d6975e7 {
+        internal static System.Drawing.Bitmap FriendsLogo {
             get {
-                object obj = ResourceManager.GetObject("kissclipart-facebook-birthday-icon-clipart-birthday-cake-compu-c9196dde8d6975e7", resourceCulture);
+                object obj = ResourceManager.GetObject("FriendsLogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MyPostLogo {
+            get {
+                object obj = ResourceManager.GetObject("MyPostLogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PhotoLogo {
+            get {
+                object obj = ResourceManager.GetObject("PhotoLogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PostLogo {
+            get {
+                object obj = ResourceManager.GetObject("PostLogo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
