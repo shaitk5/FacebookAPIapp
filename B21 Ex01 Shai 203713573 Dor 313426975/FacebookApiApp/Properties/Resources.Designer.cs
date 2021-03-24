@@ -143,9 +143,29 @@ namespace FacebookApiApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap FacebookNoPermission {
+            get {
+                object obj = ResourceManager.GetObject("FacebookNoPermission", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap FriendsLogo {
             get {
                 object obj = ResourceManager.GetObject("FriendsLogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MostLikelyFacebook {
+            get {
+                object obj = ResourceManager.GetObject("MostLikelyFacebook", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

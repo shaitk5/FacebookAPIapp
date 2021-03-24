@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppSettings.cs" />
+    <Compile Include="FacebookUserWrapper.cs" />
     <Compile Include="FormAlbums.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +87,12 @@
     </Compile>
     <Compile Include="FormGroups.Designer.cs">
       <DependentUpon>FormGroups.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMostLikely.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMostLikely.Designer.cs">
+      <DependentUpon>FormMostLikely.cs</DependentUpon>
     </Compile>
     <Compile Include="FormUserPosts.cs">
       <SubType>Form</SubType>
@@ -124,6 +131,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormGroups.resx">
       <DependentUpon>FormGroups.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMostLikely.resx">
+      <DependentUpon>FormMostLikely.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormUserPosts.resx">
       <DependentUpon>FormUserPosts.cs</DependentUpon>
@@ -177,6 +187,8 @@
     <Content Include="Resources\FacebookCheckinsLogo.png" />
     <Content Include="Resources\FacebookEventsLogo.png" />
     <Content Include="Resources\FacebookGroupsLogo.jpg" />
+    <Content Include="Resources\FacebookNoPermission.jpg" />
+    <Content Include="Resources\MostLikelyFacebook.jpg" />
     <None Include="Resources\PhotoLogo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

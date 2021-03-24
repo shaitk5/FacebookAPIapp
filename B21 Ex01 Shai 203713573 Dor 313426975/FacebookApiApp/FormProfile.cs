@@ -1,12 +1,7 @@
 ﻿using FacebookWrapper;
 using FacebookWrapper.ObjectModel;
 using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Threading;
 using System.Windows.Forms;
 
@@ -24,6 +19,7 @@ namespace FacebookApiApp
         private FormGroups m_FormGroups;
         private FormCheckIn m_FormCheckIn;
         private FormEvents m_FormEvents;
+        private FormMostLikely m_FormMostLikelyItems;
 
         public FormProfile()
         {
@@ -117,6 +113,7 @@ namespace FacebookApiApp
         private void thirdInitPart()
         {
             m_FormEvents = new FormEvents(m_LoggedInUser);
+            m_FormMostLikelyItems = new FormMostLikely(m_LoggedInUser);
         }
 
         private void fetchUserInfo()
@@ -178,7 +175,10 @@ namespace FacebookApiApp
 
         private void pictureBoxProfile_Click(object sender, EventArgs e)
         {
-
+            if (m_FormMostLikelyItems != null)
+            {
+                m_FormMostLikelyItems.ShowDialog();
+            }
         }
 
         private void buttonLogOut_Click(object sender, EventArgs e)

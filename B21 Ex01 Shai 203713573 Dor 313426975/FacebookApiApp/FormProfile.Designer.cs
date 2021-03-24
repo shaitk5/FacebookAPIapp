@@ -293,11 +293,12 @@ namespace FacebookApiApp
             // 
             this.pictureBoxLikely.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.pictureBoxLikely.BackColor = System.Drawing.Color.MidnightBlue;
+            this.pictureBoxLikely.Image = global::FacebookApiApp.Properties.Resources.MostLikelyFacebook;
             this.pictureBoxLikely.Location = new System.Drawing.Point(826, 203);
             this.pictureBoxLikely.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBoxLikely.Name = "pictureBoxLikely";
             this.pictureBoxLikely.Size = new System.Drawing.Size(76, 65);
-            this.pictureBoxLikely.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBoxLikely.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxLikely.TabIndex = 3;
             this.pictureBoxLikely.TabStop = false;
             this.pictureBoxLikely.Click += new System.EventHandler(this.pictureBoxProfile_Click);
