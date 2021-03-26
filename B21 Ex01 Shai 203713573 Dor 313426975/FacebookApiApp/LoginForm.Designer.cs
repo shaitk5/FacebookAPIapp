@@ -40,10 +40,10 @@
                this.checkBoxRemeberMe.AutoSize = true;
                this.checkBoxRemeberMe.Cursor = System.Windows.Forms.Cursors.Arrow;
                this.checkBoxRemeberMe.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-               this.checkBoxRemeberMe.Location = new System.Drawing.Point(149, 331);
-               this.checkBoxRemeberMe.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+               this.checkBoxRemeberMe.Location = new System.Drawing.Point(335, 745);
+               this.checkBoxRemeberMe.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
                this.checkBoxRemeberMe.Name = "checkBoxRemeberMe";
-               this.checkBoxRemeberMe.Size = new System.Drawing.Size(122, 21);
+               this.checkBoxRemeberMe.Size = new System.Drawing.Size(247, 40);
                this.checkBoxRemeberMe.TabIndex = 2;
                this.checkBoxRemeberMe.Text = "Remember Me!";
                this.checkBoxRemeberMe.UseVisualStyleBackColor = true;
@@ -56,10 +56,10 @@
                this.LogoPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
                this.LogoPicture.Cursor = System.Windows.Forms.Cursors.Arrow;
                this.LogoPicture.Image = global::FacebookApiApp.Properties.Resources.FacebookLogo;
-               this.LogoPicture.Location = new System.Drawing.Point(121, 41);
-               this.LogoPicture.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+               this.LogoPicture.Location = new System.Drawing.Point(272, 92);
+               this.LogoPicture.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
                this.LogoPicture.Name = "LogoPicture";
-               this.LogoPicture.Size = new System.Drawing.Size(171, 168);
+               this.LogoPicture.Size = new System.Drawing.Size(385, 378);
                this.LogoPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
                this.LogoPicture.TabIndex = 1;
                this.LogoPicture.TabStop = false;
@@ -72,31 +72,30 @@
                this.LoginButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
                this.LoginButton.Cursor = System.Windows.Forms.Cursors.Arrow;
                this.LoginButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-               this.LoginButton.Location = new System.Drawing.Point(104, 274);
-               this.LoginButton.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+               this.LoginButton.Location = new System.Drawing.Point(234, 616);
+               this.LoginButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
                this.LoginButton.Name = "LoginButton";
-               this.LoginButton.Size = new System.Drawing.Size(201, 47);
+               this.LoginButton.Size = new System.Drawing.Size(452, 106);
                this.LoginButton.TabIndex = 0;
                this.LoginButton.UseVisualStyleBackColor = false;
                this.LoginButton.Click += new System.EventHandler(this.LoginButtonOnClick);
                // 
                // LoginForm
                // 
-               this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+               this.AutoScaleDimensions = new System.Drawing.SizeF(216F, 216F);
                this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
                this.AutoSize = true;
-               this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
                this.BackColor = System.Drawing.Color.White;
                this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-               this.ClientSize = new System.Drawing.Size(416, 387);
+               this.ClientSize = new System.Drawing.Size(920, 821);
                this.Controls.Add(this.checkBoxRemeberMe);
                this.Controls.Add(this.LogoPicture);
                this.Controls.Add(this.LoginButton);
                this.Cursor = System.Windows.Forms.Cursors.Default;
                this.ImeMode = System.Windows.Forms.ImeMode.Off;
-               this.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
-               this.MaximumSize = new System.Drawing.Size(437, 444);
-               this.MinimumSize = new System.Drawing.Size(241, 370);
+               this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+               this.MaximumSize = new System.Drawing.Size(948, 900);
+               this.MinimumSize = new System.Drawing.Size(507, 734);
                this.Name = "LoginForm";
                this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
                this.Text = "Login ";

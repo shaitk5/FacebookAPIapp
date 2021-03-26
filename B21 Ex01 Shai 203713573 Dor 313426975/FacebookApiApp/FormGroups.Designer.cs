@@ -29,41 +29,46 @@ namespace FacebookApiApp
         /// </summary>
         private void InitializeComponent()
         {
-            this.listBoxGroups = new System.Windows.Forms.ListBox();
-            this.labelGroupList = new System.Windows.Forms.Label();
-            this.SuspendLayout();
-            // 
-            // listBoxGroups
-            // 
-            this.listBoxGroups.FormattingEnabled = true;
-            this.listBoxGroups.HorizontalScrollbar = true;
-            this.listBoxGroups.Location = new System.Drawing.Point(82, 62);
-            this.listBoxGroups.Name = "listBoxGroups";
-            this.listBoxGroups.Size = new System.Drawing.Size(320, 394);
-            this.listBoxGroups.TabIndex = 5;
-            // 
-            // labelGroupList
-            // 
-            this.labelGroupList.AutoSize = true;
-            this.labelGroupList.Font = new System.Drawing.Font("Tahoma", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelGroupList.Location = new System.Drawing.Point(124, 9);
-            this.labelGroupList.Name = "labelGroupList";
-            this.labelGroupList.Size = new System.Drawing.Size(230, 42);
-            this.labelGroupList.TabIndex = 6;
-            this.labelGroupList.Text = "Groups List:";
-            // 
-            // FormGroups
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(486, 468);
-            this.Controls.Add(this.labelGroupList);
-            this.Controls.Add(this.listBoxGroups);
-            this.Name = "FormGroups";
-            this.Text = "FormGroups";
-            this.Load += new System.EventHandler(this.FormGroups_Load);
-            this.ResumeLayout(false);
-            this.PerformLayout();
+               this.listBoxGroups = new System.Windows.Forms.ListBox();
+               this.labelGroupList = new System.Windows.Forms.Label();
+               this.SuspendLayout();
+               // 
+               // listBoxGroups
+               // 
+               this.listBoxGroups.FormattingEnabled = true;
+               this.listBoxGroups.HorizontalScrollbar = true;
+               this.listBoxGroups.ItemHeight = 29;
+               this.listBoxGroups.Location = new System.Drawing.Point(187, 139);
+               this.listBoxGroups.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+               this.listBoxGroups.Name = "listBoxGroups";
+               this.listBoxGroups.Size = new System.Drawing.Size(791, 874);
+               this.listBoxGroups.TabIndex = 5;
+               // 
+               // labelGroupList
+               // 
+               this.labelGroupList.AutoSize = true;
+               this.labelGroupList.Font = new System.Drawing.Font("Tahoma", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+               this.labelGroupList.Location = new System.Drawing.Point(289, 20);
+               this.labelGroupList.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+               this.labelGroupList.Name = "labelGroupList";
+               this.labelGroupList.Size = new System.Drawing.Size(511, 94);
+               this.labelGroupList.TabIndex = 6;
+               this.labelGroupList.Text = "Groups List:";
+               // 
+               // FormGroups
+               // 
+               this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
+               this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+               this.ClientSize = new System.Drawing.Size(1134, 1044);
+               this.Controls.Add(this.labelGroupList);
+               this.Controls.Add(this.listBoxGroups);
+               this.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+               this.Name = "FormGroups";
+               this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+               this.Text = "FormGroups";
+               this.Load += new System.EventHandler(this.FormGroups_Load);
+               this.ResumeLayout(false);
+               this.PerformLayout();
 
         }
 

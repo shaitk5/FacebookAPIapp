@@ -34,3 +34,11 @@ C:\Users\lasri\Desktop\FacebookAPIapp\B21 Ex01 Shai 203713573 Dor 313426975\Face
 C:\Users\lasri\Desktop\FacebookAPIapp\B21 Ex01 Shai 203713573 Dor 313426975\FacebookApiApp\obj\Debug\FacebookApiApp.FormEvents.resources
 C:\Users\lasri\Desktop\FacebookAPIapp\B21 Ex01 Shai 203713573 Dor 313426975\FacebookApiApp\obj\Debug\FacebookApiApp.FormMostLikely.resources
 C:\Users\lasri\Desktop\FacebookAPIapp\B21 Ex01 Shai 203713573 Dor 313426975\FacebookApiApp\obj\Debug\FacebookApiApp.FormCoronaIsolationPost.resources
+C:\Users\srsrs\Desktop\Design patterns\FacebookAPIapp\B21 Ex01 Shai 203713573 Dor 313426975\FacebookApiApp\obj\Debug\FacebookApiApp.FormAlbums.resources
+C:\Users\srsrs\Desktop\Design patterns\FacebookAPIapp\B21 Ex01 Shai 203713573 Dor 313426975\FacebookApiApp\obj\Debug\FacebookApiApp.FormCheckIn.resources
+C:\Users\srsrs\Desktop\Design patterns\FacebookAPIapp\B21 Ex01 Shai 203713573 Dor 313426975\FacebookApiApp\obj\Debug\FacebookApiApp.FormCoronaIsolationPost.resources
+C:\Users\srsrs\Desktop\Design patterns\FacebookAPIapp\B21 Ex01 Shai 203713573 Dor 313426975\FacebookApiApp\obj\Debug\FacebookApiApp.FormEvents.resources
+C:\Users\srsrs\Desktop\Design patterns\FacebookAPIapp\B21 Ex01 Shai 203713573 Dor 313426975\FacebookApiApp\obj\Debug\FacebookApiApp.FormFriends.resources
+C:\Users\srsrs\Desktop\Design patterns\FacebookAPIapp\B21 Ex01 Shai 203713573 Dor 313426975\FacebookApiApp\obj\Debug\FacebookApiApp.FormGroups.resources
+C:\Users\srsrs\Desktop\Design patterns\FacebookAPIapp\B21 Ex01 Shai 203713573 Dor 313426975\FacebookApiApp\obj\Debug\FacebookApiApp.FormMostLikely.resources
+C:\Users\srsrs\Desktop\Design patterns\FacebookAPIapp\B21 Ex01 Shai 203713573 Dor 313426975\FacebookApiApp\obj\Debug\FacebookApiApp.FormUserPosts.resources
