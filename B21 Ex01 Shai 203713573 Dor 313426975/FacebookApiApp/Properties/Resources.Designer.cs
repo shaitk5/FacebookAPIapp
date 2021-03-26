@@ -93,6 +93,16 @@ namespace FacebookApiApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap FacebookCoronaLogo {
+            get {
+                object obj = ResourceManager.GetObject("FacebookCoronaLogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap FacebookEventsLogo {
             get {
                 object obj = ResourceManager.GetObject("FacebookEventsLogo", resourceCulture);

@@ -75,7 +75,6 @@ namespace FacebookApiApp
             this.textBoxPost.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.textBoxPost.Size = new System.Drawing.Size(468, 83);
             this.textBoxPost.TabIndex = 14;
-            this.textBoxPost.TextChanged += new System.EventHandler(this.textBoxPost_TextChanged);
             // 
             // labelBirthday
             // 
@@ -121,7 +120,6 @@ namespace FacebookApiApp
             // openFileUploadPicture
             // 
             this.openFileUploadPicture.FileName = "openFileUploadPicture";
-            this.openFileUploadPicture.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileUploadPicture_FileOk);
             // 
             // labelLogInName
             // 
@@ -145,7 +143,6 @@ namespace FacebookApiApp
             this.pictureBoxProfilePic.Size = new System.Drawing.Size(98, 98);
             this.pictureBoxProfilePic.TabIndex = 26;
             this.pictureBoxProfilePic.TabStop = false;
-            this.pictureBoxProfilePic.Click += new System.EventHandler(this.ProfilePicture_Click);
             // 
             // LogoPicture
             // 
@@ -160,7 +157,6 @@ namespace FacebookApiApp
             this.LogoPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.LogoPicture.TabIndex = 25;
             this.LogoPicture.TabStop = false;
-            this.LogoPicture.Click += new System.EventHandler(this.LogoPicture_Click);
             // 
             // pictureBoxGroups
             // 
@@ -280,11 +276,12 @@ namespace FacebookApiApp
             // 
             this.pictureBoxCorona.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.pictureBoxCorona.BackColor = System.Drawing.Color.MidnightBlue;
+            this.pictureBoxCorona.Image = global::FacebookApiApp.Properties.Resources.FacebookCoronaLogo;
             this.pictureBoxCorona.Location = new System.Drawing.Point(661, 203);
             this.pictureBoxCorona.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBoxCorona.Name = "pictureBoxCorona";
             this.pictureBoxCorona.Size = new System.Drawing.Size(78, 65);
-            this.pictureBoxCorona.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBoxCorona.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxCorona.TabIndex = 4;
             this.pictureBoxCorona.TabStop = false;
             this.pictureBoxCorona.Click += new System.EventHandler(this.pictureBoxCorona_Click);
@@ -348,7 +345,6 @@ namespace FacebookApiApp
             this.Name = "FormProfile";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormFacebook";
-            this.Load += new System.EventHandler(this.ProfileForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxProfilePic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.LogoPicture)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxGroups)).EndInit();

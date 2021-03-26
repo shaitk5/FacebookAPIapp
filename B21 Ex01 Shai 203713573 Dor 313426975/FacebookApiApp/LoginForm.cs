@@ -46,7 +46,18 @@ namespace FacebookApiApp
                    "public_profile",
                    "user_friends",
                    "user_tagged_places",
-                   "user_location"
+                   "user_location",
+                   "user_photos",
+                   "user_events",
+                   "user_location",
+                   "user_hometown",
+                   "publish_to_groups",
+                   "pages_manage_posts",
+                   "email",
+                   "pages_manage_engagement",
+                   "groups_access_member_info",
+                   "user_videos",
+                   "user_age_range"
                    );
 
                AppSettings appSettings = AppSettings.LoadFromFile();

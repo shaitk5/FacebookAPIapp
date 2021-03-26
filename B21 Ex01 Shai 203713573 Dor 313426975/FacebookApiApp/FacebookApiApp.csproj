@@ -70,6 +70,12 @@
     <Compile Include="FormCheckIn.Designer.cs">
       <DependentUpon>FormCheckIn.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormCoronaIsolationPost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCoronaIsolationPost.Designer.cs">
+      <DependentUpon>FormCoronaIsolationPost.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormEvents.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -122,6 +128,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormCheckIn.resx">
       <DependentUpon>FormCheckIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCoronaIsolationPost.resx">
+      <DependentUpon>FormCoronaIsolationPost.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormEvents.resx">
       <DependentUpon>FormEvents.cs</DependentUpon>
@@ -185,6 +194,7 @@
   <ItemGroup>
     <Content Include="Resources\facebookAlbumsLogo.jpg" />
     <Content Include="Resources\FacebookCheckinsLogo.png" />
+    <Content Include="Resources\FacebookCoronaLogo.png" />
     <Content Include="Resources\FacebookEventsLogo.png" />
     <Content Include="Resources\FacebookGroupsLogo.jpg" />
     <Content Include="Resources\FacebookNoPermission.jpg" />

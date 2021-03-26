@@ -20,6 +20,8 @@ namespace FacebookApiApp
         private FormCheckIn m_FormCheckIn;
         private FormEvents m_FormEvents;
         private FormMostLikely m_FormMostLikelyItems;
+        private FormCoronaIsolationPost m_FormCorona;
+
 
         public FormProfile()
         {
@@ -114,6 +116,7 @@ namespace FacebookApiApp
         {
             m_FormEvents = new FormEvents(m_LoggedInUser);
             m_FormMostLikelyItems = new FormMostLikely(m_LoggedInUser);
+            m_FormCorona = new FormCoronaIsolationPost(m_LoggedInUser);
         }
 
         private void fetchUserInfo()
@@ -228,11 +231,6 @@ namespace FacebookApiApp
             }
         }
 
-        private void pictureBoxCorona_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void pictureBoxBirthday_Click(object sender, EventArgs e)
         {
             if (m_FormBirthday != null)
@@ -247,44 +245,12 @@ namespace FacebookApiApp
             this.Close();
         }
 
-        private void pictureBoxProfilePic_Click(object sender, EventArgs e)
+        private void pictureBoxCorona_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void ProfileForm_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void labelLogInName_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void ProfilePicture_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBoxPost_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void openFileUploadPicture_FileOk(object sender, CancelEventArgs e)
-        {
-
-        }
-
-        private void LogoPicture_Click(object sender, EventArgs e)
-        {
-
+            if (m_FormCorona != null)
+            {
+                m_FormCorona.ShowDialog();
+            }
         }
     }
 }
