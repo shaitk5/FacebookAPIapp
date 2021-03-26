@@ -52,7 +52,7 @@ namespace FacebookApiApp
 
             if (m_LoggedInUser == null)
             {
-                MessageBox.Show("Unseccess login, try again next time");
+                MessageBox.Show("Failed to login, try again next time");
                 Environment.Exit(0);
             }
         }
@@ -94,7 +94,6 @@ namespace FacebookApiApp
             new Thread(firstInitPart).Start();
             new Thread(secondInitPart).Start();
             new Thread(thirdInitPart).Start();
-            // initialize all initial (Birthday this week, corona news, most likely photo, yada yada yada...) forms (Different Threads)
             fetchUserInfo();
         }
 

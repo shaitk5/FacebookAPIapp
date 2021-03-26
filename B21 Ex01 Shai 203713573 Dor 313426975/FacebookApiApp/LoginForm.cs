@@ -57,7 +57,8 @@ namespace FacebookApiApp
                    "pages_manage_engagement",
                    "groups_access_member_info",
                    "user_videos",
-                   "user_age_range"
+                   "user_age_range",
+                   "user_link"
                    );
 
                AppSettings appSettings = AppSettings.LoadFromFile();
