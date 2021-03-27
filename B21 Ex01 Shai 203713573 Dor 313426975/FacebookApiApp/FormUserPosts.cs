@@ -12,14 +12,13 @@ namespace FacebookApiApp
           {
                m_LoggedInUser = i_LoggedInUser;
                InitializeComponent();
-               fetchAllPosts();
           }
 
-          //protected override void OnShown(EventArgs e)
-          //{
-          //     base.OnShown(e);
-          //     fetchAllPosts();
-          //}
+          protected override void OnShown(EventArgs e)
+          {
+               base.OnShown(e);
+               fetchAllPosts();
+          }
 
           private void fetchAllPosts()
           {

@@ -12,14 +12,13 @@ namespace FacebookApiApp
           {
                m_LoggedInUser = i_User;
                InitializeComponent();
-               fetchCheckins();         //to make faster?
           }
 
-          //protected override void OnShown(EventArgs e)
-          //{
-          //     base.OnShown(e);
-          //     fetchCheckins();
-          //}
+          protected override void OnShown(EventArgs e)
+          {
+               base.OnShown(e);
+               fetchCheckins();
+          }
 
           private void fetchCheckins()
           {
