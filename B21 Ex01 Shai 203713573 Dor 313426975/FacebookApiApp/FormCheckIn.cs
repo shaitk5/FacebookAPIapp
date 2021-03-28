@@ -1,6 +1,6 @@
-﻿using FacebookWrapper.ObjectModel;
-using System;
+﻿using System;
 using System.Windows.Forms;
+using FacebookWrapper.ObjectModel;
 
 namespace FacebookApiApp
 {
@@ -35,7 +35,7 @@ namespace FacebookApiApp
                          {
                               if (checkin.Place != null)
                               {
-                                   listBoxCheckins.Items.Add(String.Format($"{checkin.CreatedTime}  {checkin.Place.Name}"));
+                                   listBoxCheckins.Items.Add(string.Format($"{checkin.CreatedTime}  {checkin.Place.Name}"));
                               }
                          }
                     }

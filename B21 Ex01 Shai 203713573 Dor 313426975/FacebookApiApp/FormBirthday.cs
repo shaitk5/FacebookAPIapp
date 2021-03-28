@@ -1,12 +1,6 @@
-﻿using FacebookWrapper.ObjectModel;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
+﻿using System;
 using System.Windows.Forms;
+using FacebookWrapper.ObjectModel;
 
 namespace FacebookApiApp
 {
@@ -56,11 +50,6 @@ namespace FacebookApiApp
             {
                 listBoxBirthdays.Items.Add("Permission error !!!!");
             }
-        }
-
-        private void FormBirthday_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

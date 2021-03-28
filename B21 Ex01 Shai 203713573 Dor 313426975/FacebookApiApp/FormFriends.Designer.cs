@@ -1,7 +1,6 @@
-﻿
-namespace FacebookApiApp
+﻿namespace FacebookApiApp
 {
-    partial class FormFriends
+    public partial class FormFriends
     {
         /// <summary>
         /// Required designer variable.
@@ -18,6 +17,7 @@ namespace FacebookApiApp
             {
                 components.Dispose();
             }
+
             base.Dispose(disposing);
         }
 

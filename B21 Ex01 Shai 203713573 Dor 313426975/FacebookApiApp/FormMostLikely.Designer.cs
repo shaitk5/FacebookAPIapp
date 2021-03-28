@@ -1,7 +1,6 @@
-﻿
-namespace FacebookApiApp
+﻿namespace FacebookApiApp
 {
-    partial class FormMostLikely
+    public partial class FormMostLikely
     {
         /// <summary>
         /// Required designer variable.
@@ -18,6 +17,7 @@ namespace FacebookApiApp
             {
                 components.Dispose();
             }
+
             base.Dispose(disposing);
         }
 

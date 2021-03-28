@@ -31,14 +31,6 @@ namespace FacebookApiApp
                CheckFolder();
           }
 
-          public void CheckFolder()
-          {
-               if(!Directory.Exists(sr_FileLocation))
-               {
-                    Directory.CreateDirectory(sr_FileLocation);
-               }
-          }
-
           public static AppSettings LoadFromFile()
           {
                AppSettings userSetting = new AppSettings();
@@ -53,6 +45,14 @@ namespace FacebookApiApp
                }
 
                return userSetting;
+          }
+
+          public void CheckFolder()
+          {
+               if(!Directory.Exists(sr_FileLocation))
+               {
+                    Directory.CreateDirectory(sr_FileLocation);
+               }
           }
 
           public void SaveToFile()

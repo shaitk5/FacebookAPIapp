@@ -1,8 +1,8 @@
-﻿using FacebookWrapper;
-using FacebookWrapper.ObjectModel;
-using System;
+﻿using System;
 using System.Threading;
 using System.Windows.Forms;
+using FacebookWrapper;
+using FacebookWrapper.ObjectModel;
 
 namespace FacebookApiApp
 {
@@ -20,7 +20,6 @@ namespace FacebookApiApp
           private FormEvents m_FormEvents;
           private FormMostLikely m_FormMostLikelyItems;
           private FormCoronaIsolationPost m_FormCorona;
-
 
           public FormProfile()
           {
@@ -50,7 +49,7 @@ namespace FacebookApiApp
                setToolTip(pictureBoxUpload, "Upload photo");
           }
 
-          private void setToolTip(Control i_Element, String i_Text)
+          private void setToolTip(Control i_Element, string i_Text)
           {
                ToolTip toolTip = new ToolTip
                {

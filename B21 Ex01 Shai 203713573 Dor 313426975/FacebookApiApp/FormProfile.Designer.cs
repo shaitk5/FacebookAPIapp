@@ -1,7 +1,6 @@
-﻿
-namespace FacebookApiApp
+﻿namespace FacebookApiApp
 {
-    partial class FormProfile
+    public partial class FormProfile
     {
         /// <summary>
         /// Required designer variable.

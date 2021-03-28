@@ -1,7 +1,7 @@
-﻿using FacebookWrapper.ObjectModel;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
+using FacebookWrapper.ObjectModel;
 
 namespace FacebookApiApp
 {
@@ -207,11 +207,6 @@ namespace FacebookApiApp
                 textBoxCommentedPost.Text = "There are no permissions to access the comments list of your posts";
                 textBoxLikelyPost.Text = "There are no permissions to access the likes list of your posts";
             }
-        }
-
-        private void FormMostLikely_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace FacebookApiApp
 {
-     partial class FormLogin
+     public partial class FormLogin
      {
           /// <summary>
           /// Required designer variable.
@@ -17,6 +17,7 @@
                {
                     components.Dispose();
                }
+
                base.Dispose(disposing);
           }
 
@@ -112,4 +113,3 @@
           private System.Windows.Forms.CheckBox checkBoxRemeberMe;
      }
 }
-
