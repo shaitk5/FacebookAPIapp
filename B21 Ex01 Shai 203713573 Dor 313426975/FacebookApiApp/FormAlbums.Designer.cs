@@ -48,7 +48,7 @@ namespace FacebookApiApp
                // FormAlbums
                // 
                resources.ApplyResources(this, "$this");
-               this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+               this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
                this.Controls.Add(this.labelAlbumList);
                this.Controls.Add(this.listBoxAlbums);
                this.Name = "FormAlbums";

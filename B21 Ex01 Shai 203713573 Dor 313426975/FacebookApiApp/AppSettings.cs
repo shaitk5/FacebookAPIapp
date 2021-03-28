@@ -9,8 +9,8 @@ namespace FacebookApiApp
 {
      public sealed class AppSettings
      {
-          private static string s_FileLocation = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\FacebookApiApp";
-          private static string s_File = s_FileLocation + "\\AppSettings.txt";
+          private static readonly string sr_FileLocation = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\FacebookApiApp";
+          private static readonly string sr_File = sr_FileLocation + "\\AppSettings.txt";
 
           public bool RememberUser
           {
@@ -33,9 +33,9 @@ namespace FacebookApiApp
 
           public void CheckFolder()
           {
-               if(!Directory.Exists(s_FileLocation))
+               if(!Directory.Exists(sr_FileLocation))
                {
-                    Directory.CreateDirectory(s_FileLocation);
+                    Directory.CreateDirectory(sr_FileLocation);
                }
           }
 
@@ -43,9 +43,9 @@ namespace FacebookApiApp
           {
                AppSettings userSetting = new AppSettings();
 
-               if(File.Exists(s_File))
+               if(File.Exists(sr_File))
                {
-                    using(Stream stream = new FileStream(s_File, FileMode.Open))
+                    using(Stream stream = new FileStream(sr_File, FileMode.Open))
                     {
                          XmlSerializer serializer = new XmlSerializer(typeof(AppSettings));
                          userSetting = serializer.Deserialize(stream) as AppSettings;
@@ -57,13 +57,13 @@ namespace FacebookApiApp
 
           public void SaveToFile()
           {
-               if(!File.Exists(s_File))
+               if(!File.Exists(sr_File))
                {
-                    Stream stream = new FileStream(s_File, FileMode.Create);
+                    Stream stream = new FileStream(sr_File, FileMode.Create);
                     stream.Dispose();
                }
 
-               using(Stream stream = new FileStream(s_File, FileMode.Truncate))
+               using(Stream stream = new FileStream(sr_File, FileMode.Truncate))
                {
                     XmlSerializer serializer = new XmlSerializer(this.GetType());
                     serializer.Serialize(stream, this);

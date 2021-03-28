@@ -57,8 +57,9 @@ namespace FacebookApiApp
                // 
                // FormFriends
                // 
-               this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
-               this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+               this.AutoScaleDimensions = new System.Drawing.SizeF(216F, 216F);
+               this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+               this.AutoSize = true;
                this.ClientSize = new System.Drawing.Size(1400, 895);
                this.Controls.Add(this.listBoxFriends);
                this.Controls.Add(this.labelFriendsList);

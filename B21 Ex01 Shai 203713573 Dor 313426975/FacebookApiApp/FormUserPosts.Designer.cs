@@ -40,7 +40,7 @@ namespace FacebookApiApp
                this.listBoxPosts.HorizontalScrollbar = true;
                this.listBoxPosts.ItemHeight = 29;
                this.listBoxPosts.Location = new System.Drawing.Point(331, 181);
-               this.listBoxPosts.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+               this.listBoxPosts.Margin = new System.Windows.Forms.Padding(5);
                this.listBoxPosts.Name = "listBoxPosts";
                this.listBoxPosts.Size = new System.Drawing.Size(791, 729);
                this.listBoxPosts.TabIndex = 5;
@@ -59,12 +59,13 @@ namespace FacebookApiApp
                // 
                // FormUserPosts
                // 
-               this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
-               this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+               this.AutoScaleDimensions = new System.Drawing.SizeF(216F, 216F);
+               this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+               this.AutoSize = true;
                this.ClientSize = new System.Drawing.Size(1360, 924);
                this.Controls.Add(this.labelPostLists);
                this.Controls.Add(this.listBoxPosts);
-               this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+               this.Margin = new System.Windows.Forms.Padding(5);
                this.Name = "FormUserPosts";
                this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
                this.Text = "FormUserPosts";

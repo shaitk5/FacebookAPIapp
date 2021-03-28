@@ -57,7 +57,7 @@ namespace FacebookApiApp
                // textBoxCommentedPost
                // 
                this.textBoxCommentedPost.Location = new System.Drawing.Point(1050, 654);
-               this.textBoxCommentedPost.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+               this.textBoxCommentedPost.Margin = new System.Windows.Forms.Padding(7);
                this.textBoxCommentedPost.Multiline = true;
                this.textBoxCommentedPost.Name = "textBoxCommentedPost";
                this.textBoxCommentedPost.ScrollBars = System.Windows.Forms.ScrollBars.Both;
@@ -78,7 +78,7 @@ namespace FacebookApiApp
                // textBoxCommentFriend
                // 
                this.textBoxCommentFriend.Location = new System.Drawing.Point(152, 861);
-               this.textBoxCommentFriend.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+               this.textBoxCommentFriend.Margin = new System.Windows.Forms.Padding(7);
                this.textBoxCommentFriend.Multiline = true;
                this.textBoxCommentFriend.Name = "textBoxCommentFriend";
                this.textBoxCommentFriend.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
@@ -99,7 +99,7 @@ namespace FacebookApiApp
                // textBoxFriendLike
                // 
                this.textBoxFriendLike.Location = new System.Drawing.Point(152, 654);
-               this.textBoxFriendLike.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+               this.textBoxFriendLike.Margin = new System.Windows.Forms.Padding(7);
                this.textBoxFriendLike.Multiline = true;
                this.textBoxFriendLike.Name = "textBoxFriendLike";
                this.textBoxFriendLike.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
@@ -120,7 +120,7 @@ namespace FacebookApiApp
                // textBoxLikelyPost
                // 
                this.textBoxLikelyPost.Location = new System.Drawing.Point(817, 268);
-               this.textBoxLikelyPost.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+               this.textBoxLikelyPost.Margin = new System.Windows.Forms.Padding(7);
                this.textBoxLikelyPost.Multiline = true;
                this.textBoxLikelyPost.Name = "textBoxLikelyPost";
                this.textBoxLikelyPost.ScrollBars = System.Windows.Forms.ScrollBars.Both;
@@ -141,7 +141,7 @@ namespace FacebookApiApp
                // pictureBoxLikely
                // 
                this.pictureBoxLikely.Location = new System.Drawing.Point(166, 268);
-               this.pictureBoxLikely.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+               this.pictureBoxLikely.Margin = new System.Windows.Forms.Padding(7);
                this.pictureBoxLikely.Name = "pictureBoxLikely";
                this.pictureBoxLikely.Size = new System.Drawing.Size(527, 290);
                this.pictureBoxLikely.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -161,8 +161,9 @@ namespace FacebookApiApp
                // 
                // FormMostLikely
                // 
-               this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
-               this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+               this.AutoScaleDimensions = new System.Drawing.SizeF(216F, 216F);
+               this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+               this.AutoSize = true;
                this.ClientSize = new System.Drawing.Size(1867, 1004);
                this.Controls.Add(this.textBoxCommentedPost);
                this.Controls.Add(this.labelMustComment);
@@ -175,7 +176,7 @@ namespace FacebookApiApp
                this.Controls.Add(this.pictureBoxLikely);
                this.Controls.Add(this.labelLikelyPicture);
                this.Controls.Add(this.labelTitle);
-               this.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+               this.Margin = new System.Windows.Forms.Padding(7);
                this.Name = "FormMostLikely";
                this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
                this.Text = "FormMostLikely";

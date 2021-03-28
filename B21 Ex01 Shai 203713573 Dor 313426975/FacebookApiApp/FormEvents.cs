@@ -51,15 +51,5 @@ namespace FacebookApiApp
                 listBoxEvents.Items.Add("Events - Permission error !!!!");
             }
         }
-
-        private void labelEventsList_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void FormEvents_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

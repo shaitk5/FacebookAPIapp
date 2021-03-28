@@ -57,12 +57,13 @@ namespace FacebookApiApp
                // 
                // FormCheckIn
                // 
-               this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
-               this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+               this.AutoScaleDimensions = new System.Drawing.SizeF(216F, 216F);
+               this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+               this.AutoSize = true;
                this.ClientSize = new System.Drawing.Size(1867, 1053);
                this.Controls.Add(this.listBoxCheckins);
                this.Controls.Add(this.label1);
-               this.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+               this.Margin = new System.Windows.Forms.Padding(7);
                this.Name = "FormCheckIn";
                this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
                this.Text = "FormCheckIn";

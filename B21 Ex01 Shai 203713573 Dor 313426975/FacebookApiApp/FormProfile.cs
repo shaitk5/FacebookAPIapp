@@ -9,7 +9,7 @@ namespace FacebookApiApp
      public partial class FormProfile : Form
      {
           private User m_LoggedInUser;
-          private LoginForm m_FormLogIn;
+          private FormLogin m_FormLogIn;
           private AppSettings m_AppSettings;
           private FormBirthday m_FormBirthday;
           private FormUserPosts m_FormPosts;
@@ -50,21 +50,24 @@ namespace FacebookApiApp
                setToolTip(pictureBoxUpload, "Upload photo");
           }
 
-          private void setToolTip(Control element, String text)
+          private void setToolTip(Control i_Element, String i_Text)
           {
-               ToolTip toolTipAlbums = new ToolTip();
-               toolTipAlbums.IsBalloon = true;
-               toolTipAlbums.AutoPopDelay = 0;
-               toolTipAlbums.InitialDelay = 0;
-               toolTipAlbums.ReshowDelay = 0;
-               toolTipAlbums.ShowAlways = true;
-               toolTipAlbums.SetToolTip(element, text);
+               ToolTip toolTip = new ToolTip
+               {
+                    IsBalloon = true,
+                    AutoPopDelay = 0,
+                    InitialDelay = 0,
+                    ReshowDelay = 0,
+                    ShowAlways = true
+               };
+         
+               toolTip.SetToolTip(i_Element, i_Text);
           }
 
           private void initSetting()
           {
                m_AppSettings = new AppSettings();
-               m_FormLogIn = new LoginForm();
+               m_FormLogIn = new FormLogin();
                m_FormLogIn.ShowDialog();
 
                if(m_FormLogIn.DialogResult == DialogResult.Cancel)

@@ -12,6 +12,7 @@ namespace FacebookApiApp
           {
                m_LoggedInUser = i_LoggedInUser;
                InitializeComponent();
+               listBoxPosts.Items.Add("Loading...");
           }
 
           protected override void OnShown(EventArgs e)

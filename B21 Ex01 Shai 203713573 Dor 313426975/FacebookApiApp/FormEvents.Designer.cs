@@ -50,23 +50,23 @@ namespace FacebookApiApp
                this.listBoxEvents.HorizontalScrollbar = true;
                this.listBoxEvents.ItemHeight = 29;
                this.listBoxEvents.Location = new System.Drawing.Point(224, 132);
-               this.listBoxEvents.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+               this.listBoxEvents.Margin = new System.Windows.Forms.Padding(7);
                this.listBoxEvents.Name = "listBoxEvents";
                this.listBoxEvents.Size = new System.Drawing.Size(825, 932);
                this.listBoxEvents.TabIndex = 7;
                // 
                // FormEvents
                // 
-               this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
-               this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+               this.AutoScaleDimensions = new System.Drawing.SizeF(216F, 216F);
+               this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+               this.AutoSize = true;
                this.ClientSize = new System.Drawing.Size(1269, 1095);
                this.Controls.Add(this.listBoxEvents);
                this.Controls.Add(this.labelEventsList);
-               this.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+               this.Margin = new System.Windows.Forms.Padding(7);
                this.Name = "FormEvents";
                this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
                this.Text = "FormEvents";
-               this.Load += new System.EventHandler(this.FormEvents_Load);
                this.ResumeLayout(false);
                this.PerformLayout();
 
