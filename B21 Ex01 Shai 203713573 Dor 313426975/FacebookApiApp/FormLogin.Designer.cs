@@ -42,7 +42,7 @@
                this.checkBoxRemeberMe.Cursor = System.Windows.Forms.Cursors.Arrow;
                this.checkBoxRemeberMe.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                this.checkBoxRemeberMe.Location = new System.Drawing.Point(335, 745);
-               this.checkBoxRemeberMe.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+               this.checkBoxRemeberMe.Margin = new System.Windows.Forms.Padding(2);
                this.checkBoxRemeberMe.Name = "checkBoxRemeberMe";
                this.checkBoxRemeberMe.Size = new System.Drawing.Size(247, 40);
                this.checkBoxRemeberMe.TabIndex = 2;
@@ -58,7 +58,7 @@
                this.LogoPicture.Cursor = System.Windows.Forms.Cursors.Arrow;
                this.LogoPicture.Image = global::FacebookApiApp.Properties.Resources.FacebookLogo;
                this.LogoPicture.Location = new System.Drawing.Point(272, 92);
-               this.LogoPicture.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+               this.LogoPicture.Margin = new System.Windows.Forms.Padding(2);
                this.LogoPicture.Name = "LogoPicture";
                this.LogoPicture.Size = new System.Drawing.Size(385, 378);
                this.LogoPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -74,14 +74,14 @@
                this.LoginButton.Cursor = System.Windows.Forms.Cursors.Arrow;
                this.LoginButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                this.LoginButton.Location = new System.Drawing.Point(234, 616);
-               this.LoginButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+               this.LoginButton.Margin = new System.Windows.Forms.Padding(2);
                this.LoginButton.Name = "LoginButton";
                this.LoginButton.Size = new System.Drawing.Size(452, 106);
                this.LoginButton.TabIndex = 0;
                this.LoginButton.UseVisualStyleBackColor = false;
-               this.LoginButton.Click += new System.EventHandler(this.LoginButtonOnClick);
+               this.LoginButton.Click += new System.EventHandler(this.buttonLogIn_Click);
                // 
-               // LoginForm
+               // FormLogin
                // 
                this.AutoScaleDimensions = new System.Drawing.SizeF(216F, 216F);
                this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
@@ -94,10 +94,10 @@
                this.Controls.Add(this.LoginButton);
                this.Cursor = System.Windows.Forms.Cursors.Default;
                this.ImeMode = System.Windows.Forms.ImeMode.Off;
-               this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+               this.Margin = new System.Windows.Forms.Padding(2);
                this.MaximumSize = new System.Drawing.Size(948, 900);
                this.MinimumSize = new System.Drawing.Size(507, 734);
-               this.Name = "LoginForm";
+               this.Name = "FormLogin";
                this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
                this.Text = "Login ";
                ((System.ComponentModel.ISupportInitialize)(this.LogoPicture)).EndInit();

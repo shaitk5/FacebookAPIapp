@@ -67,7 +67,6 @@
                this.Name = "FormBirthday";
                this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
                this.Text = "FormBirthday";
-               this.Load += new System.EventHandler(this.FormBirthday_Load);
                this.ResumeLayout(false);
                this.PerformLayout();
 

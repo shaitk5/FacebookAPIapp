@@ -52,7 +52,6 @@
                this.Controls.Add(this.labelAlbumList);
                this.Controls.Add(this.listBoxAlbums);
                this.Name = "FormAlbums";
-               this.Load += new System.EventHandler(this.FormAlbums_Load);
                this.ResumeLayout(false);
                this.PerformLayout();
 

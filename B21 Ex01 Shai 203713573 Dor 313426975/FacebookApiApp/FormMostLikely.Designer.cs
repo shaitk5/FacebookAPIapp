@@ -180,7 +180,6 @@
                this.Name = "FormMostLikely";
                this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
                this.Text = "FormMostLikely";
-               this.Load += new System.EventHandler(this.FormMostLikely_Load);
                ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLikely)).EndInit();
                this.ResumeLayout(false);
                this.PerformLayout();

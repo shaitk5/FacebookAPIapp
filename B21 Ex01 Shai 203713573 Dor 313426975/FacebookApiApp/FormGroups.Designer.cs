@@ -67,7 +67,6 @@
                this.Name = "FormGroups";
                this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
                this.Text = "FormGroups";
-               this.Load += new System.EventHandler(this.FormGroups_Load);
                this.ResumeLayout(false);
                this.PerformLayout();
 

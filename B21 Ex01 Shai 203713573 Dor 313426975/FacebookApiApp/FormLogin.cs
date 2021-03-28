@@ -32,12 +32,7 @@ namespace FacebookApiApp
                InitializeComponent();
           }
 
-          private void LoginButtonOnClick(object sender, EventArgs e)
-          {
-               LoggedInUserData();
-          }
-
-          private void LoggedInUserData()
+          private void loggedInUserData()
           {
                FormLoginResult = FacebookService.Login(
                     m_AppID,
@@ -79,6 +74,11 @@ namespace FacebookApiApp
           private void checkBoxRemeberMe_CheckedChanged(object sender, EventArgs e)
           {
                this.RememberMe = checkBoxRemeberMe.Checked;
+          }
+
+          private void buttonLogIn_Click(object sender, EventArgs e)
+          {
+               loggedInUserData();
           }
      }
 }

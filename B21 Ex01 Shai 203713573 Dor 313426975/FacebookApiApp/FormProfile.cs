@@ -59,7 +59,7 @@ namespace FacebookApiApp
                     ReshowDelay = 0,
                     ShowAlways = true
                };
-         
+
                toolTip.SetToolTip(i_Element, i_Text);
           }
 
@@ -122,7 +122,7 @@ namespace FacebookApiApp
                setToolTips();
                new Thread(firstInitPart).Start();
                new Thread(secondInitPart).Start();
-               new Thread(thirdInitPart).Start();           
+               new Thread(thirdInitPart).Start();
           }
 
           private void firstInitPart()
@@ -202,14 +202,6 @@ namespace FacebookApiApp
                }
           }
 
-          private void pictureBoxProfile_Click(object sender, EventArgs e)
-          {
-               if(m_FormMostLikelyItems != null)
-               {
-                    m_FormMostLikelyItems.ShowDialog();
-               }
-          }
-
           private void buttonLogOut_Click(object sender, EventArgs e)
           {
                FacebookService.Logout(new Action(onLogOut));
@@ -276,6 +268,14 @@ namespace FacebookApiApp
                if(m_FormCorona != null)
                {
                     m_FormCorona.ShowDialog();
+               }
+          }
+
+          private void pictureBoxMostLikely_Click(object sender, EventArgs e)
+          {
+               if(m_FormMostLikelyItems != null)
+               {
+                    m_FormMostLikelyItems.ShowDialog();
                }
           }
      }
