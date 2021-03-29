@@ -37,8 +37,8 @@ Wishing everyone health!
 
           private void fetchTagsForCoronaPost()
           {
-               addTagsFromAlbums();
                addTagsFromCheckins();
+               addTagsFromAlbums();
           }
 
           private void addTagsFromAlbums()
@@ -134,6 +134,7 @@ Wishing everyone health!
                          textBoxCorona.Text += friendsIds.ToString();
                          this.m_LoggedInUser.PostStatus(textBoxCorona.Text);
                     }
+                    MessageBox.Show("Posted successfully");
                }
                catch(Exception)
                {
@@ -147,6 +148,7 @@ Wishing everyone health!
           {
                fetchTagsForCoronaPost();
                postStatus();
+               this.Close();
           }
      }
 }
