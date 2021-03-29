@@ -138,7 +138,7 @@
                // 
                this.pictureBoxProfilePic.Anchor = System.Windows.Forms.AnchorStyles.Top;
                this.pictureBoxProfilePic.Location = new System.Drawing.Point(1113, 40);
-               this.pictureBoxProfilePic.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+               this.pictureBoxProfilePic.Margin = new System.Windows.Forms.Padding(7);
                this.pictureBoxProfilePic.Name = "pictureBoxProfilePic";
                this.pictureBoxProfilePic.Size = new System.Drawing.Size(229, 219);
                this.pictureBoxProfilePic.TabIndex = 26;
@@ -151,7 +151,7 @@
                this.LogoPicture.Cursor = System.Windows.Forms.Cursors.Arrow;
                this.LogoPicture.Image = global::FacebookApiApp.Properties.Resources.FacebookLogo;
                this.LogoPicture.Location = new System.Drawing.Point(49, 40);
-               this.LogoPicture.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+               this.LogoPicture.Margin = new System.Windows.Forms.Padding(2);
                this.LogoPicture.Name = "LogoPicture";
                this.LogoPicture.Size = new System.Drawing.Size(201, 178);
                this.LogoPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -316,8 +316,8 @@
                // 
                // FormProfile
                // 
-               this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
-               this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+               this.AutoScaleDimensions = new System.Drawing.SizeF(216F, 216F);
+               this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
                this.AutoSize = true;
                this.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
                this.BackColor = System.Drawing.Color.Azure;
@@ -344,7 +344,7 @@
                this.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
                this.Name = "FormProfile";
                this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-               this.Text = "FormFacebook";
+               this.Text = "Facebook";
                ((System.ComponentModel.ISupportInitialize)(this.pictureBoxProfilePic)).EndInit();
                ((System.ComponentModel.ISupportInitialize)(this.LogoPicture)).EndInit();
                ((System.ComponentModel.ISupportInitialize)(this.pictureBoxGroups)).EndInit();

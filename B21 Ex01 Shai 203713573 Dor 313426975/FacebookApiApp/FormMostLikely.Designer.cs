@@ -179,7 +179,7 @@
                this.Margin = new System.Windows.Forms.Padding(7);
                this.Name = "FormMostLikely";
                this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-               this.Text = "FormMostLikely";
+               this.Text = "MostLikely";
                ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLikely)).EndInit();
                this.ResumeLayout(false);
                this.PerformLayout();

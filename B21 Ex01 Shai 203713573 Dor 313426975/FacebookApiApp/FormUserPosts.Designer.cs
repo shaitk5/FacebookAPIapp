@@ -68,7 +68,7 @@
                this.Margin = new System.Windows.Forms.Padding(5);
                this.Name = "FormUserPosts";
                this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-               this.Text = "FormUserPosts";
+               this.Text = "Posts";
                this.ResumeLayout(false);
                this.PerformLayout();
 

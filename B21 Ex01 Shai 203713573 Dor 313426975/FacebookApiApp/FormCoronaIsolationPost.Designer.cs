@@ -85,7 +85,7 @@
                this.Margin = new System.Windows.Forms.Padding(7);
                this.Name = "FormCoronaIsolationPost";
                this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-               this.Text = "FormCoronaIsolationPost";
+               this.Text = "CoronaIsolationPost";
                ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPost)).EndInit();
                this.ResumeLayout(false);
                this.PerformLayout();

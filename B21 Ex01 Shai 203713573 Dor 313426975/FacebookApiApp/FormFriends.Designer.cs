@@ -66,7 +66,7 @@
                this.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
                this.Name = "FormFriends";
                this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-               this.Text = "FormFriend";
+               this.Text = "Friends";
                this.ResumeLayout(false);
                this.PerformLayout();
 
