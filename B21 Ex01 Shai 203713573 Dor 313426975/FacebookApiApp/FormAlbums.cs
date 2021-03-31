@@ -43,5 +43,10 @@ namespace FacebookApiApp
                     listBoxAlbums.Items.Add("Permission error !!!!");
                }
           }
-     }
+
+        private void FormAlbums_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
 }

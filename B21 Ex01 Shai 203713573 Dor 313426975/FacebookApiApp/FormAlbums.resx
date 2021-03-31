@@ -121,19 +121,12 @@
   <data name="listBoxAlbums.HorizontalScrollbar" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="listBoxAlbums.ItemHeight" type="System.Int32, mscorlib">
-    <value>29</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="listBoxAlbums.Location" type="System.Drawing.Point, System.Drawing">
-    <value>586, 147</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="listBoxAlbums.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>260, 65</value>
   </data>
   <data name="listBoxAlbums.Size" type="System.Drawing.Size, System.Drawing">
-    <value>741, 874</value>
+    <value>332, 381</value>
   </data>
   <data name="listBoxAlbums.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -157,13 +150,10 @@
     <value>Tahoma, 25.8pt, style=Bold</value>
   </data>
   <data name="labelAlbumList.Location" type="System.Drawing.Point, System.Drawing">
-    <value>672, 20</value>
-  </data>
-  <data name="labelAlbumList.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>299, 9</value>
   </data>
   <data name="labelAlbumList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>522, 94</value>
+    <value>235, 42</value>
   </data>
   <data name="labelAlbumList.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -187,17 +177,15 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>216, 216</value>
+    <value>96, 96</value>
   </data>
   <data name="$this.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1837, 1100</value>
+    <value>816, 472</value>
   </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
-  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
   </data>

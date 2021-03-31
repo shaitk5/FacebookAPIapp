@@ -15,7 +15,6 @@ C:\Users\lasri\Desktop\FacebookAPIapp\B21 Ex01 Shai 203713573 Dor 313426975\Face
 C:\Users\lasri\Desktop\FacebookAPIapp\B21 Ex01 Shai 203713573 Dor 313426975\FacebookApiApp\bin\Debug\FbGraphApiWrapper.dll
 C:\Users\lasri\Desktop\FacebookAPIapp\B21 Ex01 Shai 203713573 Dor 313426975\FacebookApiApp\obj\Debug\FacebookApiApp.csprojAssemblyReference.cache
 C:\Users\lasri\Desktop\FacebookAPIapp\B21 Ex01 Shai 203713573 Dor 313426975\FacebookApiApp\obj\Debug\FacebookApiApp.FormBirthday.resources
-C:\Users\lasri\Desktop\FacebookAPIapp\B21 Ex01 Shai 203713573 Dor 313426975\FacebookApiApp\obj\Debug\FacebookApiApp.LoginForm.resources
 C:\Users\lasri\Desktop\FacebookAPIapp\B21 Ex01 Shai 203713573 Dor 313426975\FacebookApiApp\obj\Debug\FacebookApiApp.FormProfile.resources
 C:\Users\lasri\Desktop\FacebookAPIapp\B21 Ex01 Shai 203713573 Dor 313426975\FacebookApiApp\obj\Debug\FacebookApiApp.Properties.Resources.resources
 C:\Users\lasri\Desktop\FacebookAPIapp\B21 Ex01 Shai 203713573 Dor 313426975\FacebookApiApp\obj\Debug\FacebookApiApp.csproj.GenerateResource.cache
@@ -42,3 +41,4 @@ C:\Users\srsrs\Desktop\Design patterns\FacebookAPIapp\B21 Ex01 Shai 203713573 Do
 C:\Users\srsrs\Desktop\Design patterns\FacebookAPIapp\B21 Ex01 Shai 203713573 Dor 313426975\FacebookApiApp\obj\Debug\FacebookApiApp.FormMostLikely.resources
 C:\Users\srsrs\Desktop\Design patterns\FacebookAPIapp\B21 Ex01 Shai 203713573 Dor 313426975\FacebookApiApp\obj\Debug\FacebookApiApp.FormUserPosts.resources
 C:\Users\srsrs\Desktop\Design patterns\FacebookAPIapp\B21 Ex01 Shai 203713573 Dor 313426975\FacebookApiApp\obj\Debug\FacebookApiApp.FormLogin.resources
+C:\Users\lasri\Desktop\FacebookAPIapp\B21 Ex01 Shai 203713573 Dor 313426975\FacebookApiApp\obj\Debug\FacebookApiApp.FormLogin.resources

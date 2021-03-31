@@ -29,31 +29,32 @@
         /// </summary>
         private void InitializeComponent()
         {
-               System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAlbums));
-               this.listBoxAlbums = new System.Windows.Forms.ListBox();
-               this.labelAlbumList = new System.Windows.Forms.Label();
-               this.SuspendLayout();
-               // 
-               // listBoxAlbums
-               // 
-               this.listBoxAlbums.FormattingEnabled = true;
-               resources.ApplyResources(this.listBoxAlbums, "listBoxAlbums");
-               this.listBoxAlbums.Name = "listBoxAlbums";
-               // 
-               // labelAlbumList
-               // 
-               resources.ApplyResources(this.labelAlbumList, "labelAlbumList");
-               this.labelAlbumList.Name = "labelAlbumList";
-               // 
-               // FormAlbums
-               // 
-               resources.ApplyResources(this, "$this");
-               this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-               this.Controls.Add(this.labelAlbumList);
-               this.Controls.Add(this.listBoxAlbums);
-               this.Name = "FormAlbums";
-               this.ResumeLayout(false);
-               this.PerformLayout();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAlbums));
+            this.listBoxAlbums = new System.Windows.Forms.ListBox();
+            this.labelAlbumList = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // listBoxAlbums
+            // 
+            this.listBoxAlbums.FormattingEnabled = true;
+            resources.ApplyResources(this.listBoxAlbums, "listBoxAlbums");
+            this.listBoxAlbums.Name = "listBoxAlbums";
+            // 
+            // labelAlbumList
+            // 
+            resources.ApplyResources(this.labelAlbumList, "labelAlbumList");
+            this.labelAlbumList.Name = "labelAlbumList";
+            // 
+            // FormAlbums
+            // 
+            resources.ApplyResources(this, "$this");
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.Controls.Add(this.labelAlbumList);
+            this.Controls.Add(this.listBoxAlbums);
+            this.Name = "FormAlbums";
+            this.Load += new System.EventHandler(this.FormAlbums_Load);
+            this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
